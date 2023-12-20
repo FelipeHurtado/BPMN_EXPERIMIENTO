@@ -1,4 +1,4 @@
-<mxfile modified="2023-12-20T20:18:19.603Z" host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="sje7nAQiXIhdvpzMWcVM" version="22.1.11" type="github">
+<mxfile modified="2023-12-20T20:23:05.890Z" host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="mWwEHGV9znzuDzm8-MFP" version="22.1.11" type="github">
   <diagram id="Ht1M8jgEwFfnCIfOTk4-" name="Page-1">
     <mxGraphModel dx="1980" dy="1084" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -33,6 +33,21 @@
         </mxCell>
         <mxCell id="e8etL6K2DBiOjURZ3ap9-23" value="" style="swimlane;startSize=0;dashed=1;dashPattern=8 8;" vertex="1" parent="1">
           <mxGeometry x="250" y="120" width="830" height="760" as="geometry" />
+        </mxCell>
+        <mxCell id="e8etL6K2DBiOjURZ3ap9-26" value="ISS SERVER" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/storage/Datacenter_Server_Half_Rack_ToR.svg;" vertex="1" parent="e8etL6K2DBiOjURZ3ap9-23">
+          <mxGeometry x="640" y="40" width="88.2" height="114.6" as="geometry" />
+        </mxCell>
+        <mxCell id="e8etL6K2DBiOjURZ3ap9-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="e8etL6K2DBiOjURZ3ap9-24" target="e8etL6K2DBiOjURZ3ap9-26">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1110" y="180" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="1030" y="145" />
+              <mxPoint x="1030" y="217" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e8etL6K2DBiOjURZ3ap9-24" value="" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.security_camera;" vertex="1" parent="1">
+          <mxGeometry x="1150" y="111.5" width="60" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
