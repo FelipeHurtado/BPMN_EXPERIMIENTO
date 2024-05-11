@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-05-11T15:12:47.040Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0" etag="1sdElm7eNhDRi7OhsB6L" version="24.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-11T15:47:01.252Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0" etag="oO9OMjfUpxMsvfjykSvA" version="24.4.0" type="github">
   <diagram name="Página-1" id="EDCEPwNvgwdrzLecZ25a">
-    <mxGraphModel dx="983" dy="523" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1426" dy="759" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1280" pageHeight="1390" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -39,11 +39,23 @@
             <mxPoint x="101" y="9" as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="4qAtPdHN575NMLFxYR2I-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;flowAnimation=1;" edge="1" parent="1" source="4qAtPdHN575NMLFxYR2I-20" target="4qAtPdHN575NMLFxYR2I-50">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="470" y="518" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4qAtPdHN575NMLFxYR2I-52" value="Event / Alarm http" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="4qAtPdHN575NMLFxYR2I-51">
+          <mxGeometry x="-0.1816" y="-2" relative="1" as="geometry">
+            <mxPoint x="2" y="10" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="4qAtPdHN575NMLFxYR2I-20" value="Middleware MQTT" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#E7157B;strokeColor=none;dashed=0;verticalLabelPosition=top;verticalAlign=bottom;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.mq_broker;labelPosition=center;" vertex="1" parent="1">
           <mxGeometry x="440" y="164.29000000000002" width="39.57" height="35" as="geometry" />
         </mxCell>
         <mxCell id="4qAtPdHN575NMLFxYR2I-22" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Preguntas?&lt;/h1&gt;&lt;p&gt;1. ¿Que funcionalidades debe cumplir el Middleware?&lt;/p&gt;&lt;p&gt;2. Primera carga y configuración la trae de Directus DB?&lt;/p&gt;&lt;p&gt;3. cuantos lectores puede soportar un middleware&lt;/p&gt;&lt;p&gt;4. En MQTT se puede enviar JSON con diferente informacion que información se enviaria y hacía que server?&lt;/p&gt;&lt;p&gt;5. MQTT se debe instalar un server Mosquitto donde convergen todos los MQTT, se debe crear una herramienta broker para poder procesar , filtrar la informacion y almacenarla.&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="14" y="440" width="336" height="310" as="geometry" />
+          <mxGeometry x="920" y="30" width="336" height="310" as="geometry" />
         </mxCell>
         <mxCell id="4qAtPdHN575NMLFxYR2I-23" value="SERVIDOR LINUX MINI PC" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="260" y="100" width="260" height="310" as="geometry" />
@@ -89,6 +101,53 @@
           <mxGeometry x="130" y="161" width="50" height="48" as="geometry" />
         </mxCell>
         <mxCell id="4qAtPdHN575NMLFxYR2I-42" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.005;entryY=0.63;entryDx=0;entryDy=0;entryPerimeter=0;flowAnimation=1;dashed=1;" edge="1" parent="4qAtPdHN575NMLFxYR2I-27" source="4qAtPdHN575NMLFxYR2I-36" target="4qAtPdHN575NMLFxYR2I-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4qAtPdHN575NMLFxYR2I-46" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Middleware&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ol&gt;&lt;li&gt;Descarga información de lectores y zonas de lectura&lt;/li&gt;&lt;li&gt;Configura GPIO de alertas&amp;nbsp;&lt;/li&gt;&lt;li&gt;Descarga información de items (EPC, titulo, estado)&lt;/li&gt;&lt;li&gt;Llega nueva lectura, procesa estado del item y dispara alerta si es necesario mediante http request al GPIO.&lt;/li&gt;&lt;li&gt;Envía lecturas hacia la nube mediante mosquitto al llegar estos eventos el Broker se susbcribe se puede filtrar, procesar y guardar mediante API o mediante BD directamente.&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="580" width="370" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="4qAtPdHN575NMLFxYR2I-47" value="GPIO ALERTAS/CONTEO" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" vertex="1" parent="1">
+          <mxGeometry x="540" y="440" width="260" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="4qAtPdHN575NMLFxYR2I-50" value="API" style="editableCssRules=.*;html=1;shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=data:image/svg+xml,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnY9Imh0dHBzOi8vdmVjdGEuaW8vbmFubyIgd2lkdGg9IjIwIiBoZWlnaHQ9IjIwIiB2aWV3Qm94PSIwIDAgMjAgMjAiPiYjeGE7CTxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyI+JiN4YTsJLnN0MHtmaWxsOiM0Mjg1ZjQ7fSYjeGE7CTwvc3R5bGU+JiN4YTsJPHBhdGggY2xhc3M9InN0MCIgZD0iTTEzLjMzIDB2Mi4zOGgtMi4xNlYwSDguODN2Mi4zOEg2LjY3VjBINC4yOXYyLjM4YTIgMiAwIDAgMC0xLjkxIDEuOTFIMHYyLjM4aDIuMzh2Mi4xNEgwdjIuMzhoMi4zOHYyLjE0SDB2Mi4zOGgyLjM4YTIgMiAwIDAgMCAxLjkxIDEuOTFWMjBoMi4zOHYtMi4zOGgyLjE2VjIwaDIuMzR2LTIuMzhoMi4xNlYyMGgyLjM4di0yLjM4YTIgMiAwIDAgMCAxLjkxLTEuOTFIMjB2LTIuMzhoLTIuMzh2LTIuMTRIMjBWOC44MWgtMi4zOFY2LjY3SDIwVjQuMjloLTIuMzhhMiAyIDAgMCAwLTEuOTEtMS45MVYwem0xLjUzIDE1LjI0SDUuMTRhLjM4LjM4IDAgMCAxLS4zOC0uMzhWNS4xNGEuMzguMzggMCAwIDEgLjM4LS4zOGg5LjcyYS4zOC4zOCAwIDAgMSAuMzguMzh2OS43MmEuMzguMzggMCAwIDEtLjM4LjM4em0tMi4wNy02LjEybC0zLjUgNC44NnYtMy42M0g3LjIybDMuNjEtNC44MXYzLjU4eiIvPiYjeGE7PC9zdmc+;" vertex="1" parent="4qAtPdHN575NMLFxYR2I-47">
+          <mxGeometry x="55" y="55" width="45" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="4qAtPdHN575NMLFxYR2I-60" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.382;entryDx=0;entryDy=0;entryPerimeter=0;edgeStyle=orthogonalEdgeStyle;dashed=1;flowAnimation=1;" edge="1" parent="4qAtPdHN575NMLFxYR2I-47" target="4qAtPdHN575NMLFxYR2I-56">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="171.32262038159888" y="99.98495709704002" as="sourcePoint" />
+            <mxPoint x="170" y="160" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="171" y="101" />
+              <mxPoint x="109" y="101" />
+              <mxPoint x="109" y="130" />
+              <mxPoint x="60" y="130" />
+              <mxPoint x="60" y="162" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4qAtPdHN575NMLFxYR2I-53" value="Conteo de personas" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#000000;labelBackgroundColor=default;fontSize=12;spacingTop=3;image=img/lib/ibm/management/process_management.svg;" vertex="1" parent="4qAtPdHN575NMLFxYR2I-47">
+          <mxGeometry x="150" y="55" width="45" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="4qAtPdHN575NMLFxYR2I-56" value="Redis" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Cache_Redis_Product.svg;labelPosition=center;verticalLabelPosition=top;verticalAlign=bottom;" vertex="1" parent="4qAtPdHN575NMLFxYR2I-47">
+          <mxGeometry x="90" y="150" width="37.4" height="31.42" as="geometry" />
+        </mxCell>
+        <mxCell id="4qAtPdHN575NMLFxYR2I-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.72;entryY=0.99;entryDx=0;entryDy=0;entryPerimeter=0;flowAnimation=1;dashed=1;" edge="1" parent="1" source="4qAtPdHN575NMLFxYR2I-53" target="4qAtPdHN575NMLFxYR2I-41">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="750" y="518" />
+              <mxPoint x="750" y="309" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4qAtPdHN575NMLFxYR2I-55" value="http request" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="4qAtPdHN575NMLFxYR2I-54">
+          <mxGeometry x="0.2724" y="1" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4qAtPdHN575NMLFxYR2I-57" value="" style="pointerEvents=1;verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.electro-mechanical.loudspeaker;rotation=-180;" vertex="1" parent="1">
+          <mxGeometry x="515" y="530" width="25" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="4qAtPdHN575NMLFxYR2I-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.4;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;flowAnimation=1;" edge="1" parent="1" source="4qAtPdHN575NMLFxYR2I-50" target="4qAtPdHN575NMLFxYR2I-57">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
