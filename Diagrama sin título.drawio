@@ -1,9 +1,96 @@
-<mxfile host="app.diagrams.net" modified="2024-05-11T14:44:04.592Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0" version="24.3.1" etag="LtfX1HvzPGkHuSDEWTsl" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-11T15:12:47.040Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0" etag="1sdElm7eNhDRi7OhsB6L" version="24.4.0" type="github">
   <diagram name="Página-1" id="EDCEPwNvgwdrzLecZ25a">
-    <mxGraphModel>
+    <mxGraphModel dx="983" dy="523" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="4qAtPdHN575NMLFxYR2I-8" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;flowAnimation=1;" edge="1" parent="1" source="4qAtPdHN575NMLFxYR2I-1" target="4qAtPdHN575NMLFxYR2I-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4qAtPdHN575NMLFxYR2I-1" value="Impinj Reader" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/security/Router_VPN.svg;" vertex="1" parent="1">
+          <mxGeometry x="190" y="256" width="42.27" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4qAtPdHN575NMLFxYR2I-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;flowAnimation=1;" edge="1" parent="1" source="4qAtPdHN575NMLFxYR2I-4" target="4qAtPdHN575NMLFxYR2I-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4qAtPdHN575NMLFxYR2I-7" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;flowAnimation=1;" edge="1" parent="1" source="4qAtPdHN575NMLFxYR2I-6" target="4qAtPdHN575NMLFxYR2I-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4qAtPdHN575NMLFxYR2I-6" value="TAG RFID" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#ED7100;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.braket_chip;direction=west;" vertex="1" parent="1">
+          <mxGeometry x="90" y="256" width="28" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="4qAtPdHN575NMLFxYR2I-15" value="opcional" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.mysql_db_instance;fillColor=#2E73B8;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="280" y="160" width="40" height="39.5" as="geometry" />
+        </mxCell>
+        <mxCell id="4qAtPdHN575NMLFxYR2I-35" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;flowAnimation=1;" edge="1" parent="1" source="4qAtPdHN575NMLFxYR2I-20" target="4qAtPdHN575NMLFxYR2I-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4qAtPdHN575NMLFxYR2I-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;flowAnimation=1;dashed=1;" edge="1" parent="1" source="4qAtPdHN575NMLFxYR2I-20" target="4qAtPdHN575NMLFxYR2I-41">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="490" y="182" />
+              <mxPoint x="490" y="370" />
+              <mxPoint x="695" y="370" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4qAtPdHN575NMLFxYR2I-45" value="http Request" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="4qAtPdHN575NMLFxYR2I-44">
+          <mxGeometry x="-0.1837" relative="1" as="geometry">
+            <mxPoint x="101" y="9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4qAtPdHN575NMLFxYR2I-20" value="Middleware MQTT" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#E7157B;strokeColor=none;dashed=0;verticalLabelPosition=top;verticalAlign=bottom;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.mq_broker;labelPosition=center;" vertex="1" parent="1">
+          <mxGeometry x="440" y="164.29000000000002" width="39.57" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="4qAtPdHN575NMLFxYR2I-22" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Preguntas?&lt;/h1&gt;&lt;p&gt;1. ¿Que funcionalidades debe cumplir el Middleware?&lt;/p&gt;&lt;p&gt;2. Primera carga y configuración la trae de Directus DB?&lt;/p&gt;&lt;p&gt;3. cuantos lectores puede soportar un middleware&lt;/p&gt;&lt;p&gt;4. En MQTT se puede enviar JSON con diferente informacion que información se enviaria y hacía que server?&lt;/p&gt;&lt;p&gt;5. MQTT se debe instalar un server Mosquitto donde convergen todos los MQTT, se debe crear una herramienta broker para poder procesar , filtrar la informacion y almacenarla.&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="14" y="440" width="336" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="4qAtPdHN575NMLFxYR2I-23" value="SERVIDOR LINUX MINI PC" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="100" width="260" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="4qAtPdHN575NMLFxYR2I-4" value="CORE LINUX" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/computer_and_terminals/Server_Desktop.svg;" vertex="1" parent="4qAtPdHN575NMLFxYR2I-23">
+          <mxGeometry x="100" y="144" width="42.599999999999994" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="4qAtPdHN575NMLFxYR2I-17" value="Redis" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Cache_Redis_Product.svg;labelPosition=center;verticalLabelPosition=top;verticalAlign=bottom;" vertex="1" parent="4qAtPdHN575NMLFxYR2I-23">
+          <mxGeometry x="90" y="68.08000000000001" width="37.4" height="31.42" as="geometry" />
+        </mxCell>
+        <mxCell id="4qAtPdHN575NMLFxYR2I-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.938;entryY=0.438;entryDx=0;entryDy=0;entryPerimeter=0;flowAnimation=1;dashed=1;" edge="1" parent="1" source="4qAtPdHN575NMLFxYR2I-20" target="4qAtPdHN575NMLFxYR2I-17">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="410" y="182" />
+              <mxPoint x="410" y="182" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4qAtPdHN575NMLFxYR2I-27" value="DIRECTUS SERVER" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="100" width="260" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="4qAtPdHN575NMLFxYR2I-30" value="Directus" style="outlineConnect=0;dashed=0;verticalLabelPosition=top;verticalAlign=bottom;align=center;html=1;shape=mxgraph.aws3.mysql_db_instance;fillColor=#2E73B8;gradientColor=none;labelPosition=center;" vertex="1" parent="4qAtPdHN575NMLFxYR2I-27">
+          <mxGeometry x="200" y="59.79" width="40" height="39.5" as="geometry" />
+        </mxCell>
+        <mxCell id="4qAtPdHN575NMLFxYR2I-34" value="Mosquitto Service" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#E7157B;strokeColor=none;dashed=0;verticalLabelPosition=top;verticalAlign=bottom;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.mq_broker;labelPosition=center;" vertex="1" parent="4qAtPdHN575NMLFxYR2I-27">
+          <mxGeometry x="40" y="63.29" width="40.7" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="4qAtPdHN575NMLFxYR2I-36" value="Broker Mqtt" style="verticalLabelPosition=bottom;sketch=0;html=1;fillColor=#A153A0;strokeColor=#ffffff;verticalAlign=top;align=center;points=[[0,0.5,0],[0.125,0.25,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[0.875,0.25,0],[1,0.5,0],[0.875,0.75,0],[0.75,1,0],[0.5,1,0],[0.125,0.75,0]];pointerEvents=1;shape=mxgraph.cisco_safe.compositeIcon;bgIcon=mxgraph.cisco_safe.design.blank_device;resIcon=mxgraph.cisco_safe.design.wide_area_application_engine;" vertex="1" parent="4qAtPdHN575NMLFxYR2I-27">
+          <mxGeometry x="35.35000000000002" y="169" width="50" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="4qAtPdHN575NMLFxYR2I-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;flowAnimation=1;" edge="1" parent="4qAtPdHN575NMLFxYR2I-27" source="4qAtPdHN575NMLFxYR2I-34" target="4qAtPdHN575NMLFxYR2I-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4qAtPdHN575NMLFxYR2I-40" value="Websocket /Events" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="4qAtPdHN575NMLFxYR2I-39">
+          <mxGeometry x="-0.1972" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4qAtPdHN575NMLFxYR2I-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;flowAnimation=1;" edge="1" parent="4qAtPdHN575NMLFxYR2I-27" source="4qAtPdHN575NMLFxYR2I-41" target="4qAtPdHN575NMLFxYR2I-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4qAtPdHN575NMLFxYR2I-41" value="API Directus" style="aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;verticalLabelPosition=top;verticalAlign=bottom;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;prIcon=api;labelPosition=center;align=center;" vertex="1" parent="4qAtPdHN575NMLFxYR2I-27">
+          <mxGeometry x="130" y="161" width="50" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="4qAtPdHN575NMLFxYR2I-42" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.005;entryY=0.63;entryDx=0;entryDy=0;entryPerimeter=0;flowAnimation=1;dashed=1;" edge="1" parent="4qAtPdHN575NMLFxYR2I-27" source="4qAtPdHN575NMLFxYR2I-36" target="4qAtPdHN575NMLFxYR2I-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
