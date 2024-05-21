@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-21T01:14:50.063Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0" etag="U-NDYNukhSzAn0JofNZJ" version="24.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-21T01:18:38.763Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0" etag="1CiRSdP44rFZ9amQ3vtk" version="24.4.0" type="github">
   <diagram name="Página-1" id="EDCEPwNvgwdrzLecZ25a">
     <mxGraphModel dx="1426" dy="759" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1280" pageHeight="1989" math="0" shadow="0">
       <root>
@@ -38,9 +38,6 @@
         </mxCell>
         <mxCell id="4qAtPdHN575NMLFxYR2I-41" value="API Directus" style="aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;verticalLabelPosition=top;verticalAlign=bottom;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;prIcon=api;labelPosition=center;align=center;" parent="4qAtPdHN575NMLFxYR2I-27" vertex="1">
           <mxGeometry x="90" y="140" width="50" height="48" as="geometry" />
-        </mxCell>
-        <mxCell id="4qAtPdHN575NMLFxYR2I-46" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Middleware&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ol&gt;&lt;li&gt;Descarga información de lectores y zonas de lectura&lt;/li&gt;&lt;li&gt;Configura GPIO de alertas&amp;nbsp;&lt;/li&gt;&lt;li&gt;Descarga información de items (EPC, titulo, estado)&lt;/li&gt;&lt;li&gt;Llega nueva lectura, procesa estado del item y dispara alerta si es necesario mediante http request al GPIO.&lt;/li&gt;&lt;li&gt;Envía lecturas hacia la nube mediante mosquitto al llegar estos eventos el Broker se susbcribe se puede filtrar, procesar y guardar mediante API o mediante BD directamente.&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="900" y="569.29" width="370" height="210" as="geometry" />
         </mxCell>
         <mxCell id="4qAtPdHN575NMLFxYR2I-47" value="GPIO ALERTAS/CONTEO" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" parent="1" vertex="1">
           <mxGeometry x="540" y="667.42" width="260" height="282.58" as="geometry" />
@@ -188,7 +185,7 @@
             <mxPoint x="131" y="-24" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="kFSBD8ii1fqP9d3rHwqO-40" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&amp;nbsp;GPIO&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ol&gt;&lt;li&gt;Se conecta a&amp;nbsp;&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+        <mxCell id="kFSBD8ii1fqP9d3rHwqO-40" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&amp;nbsp;GPIO&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ol&gt;&lt;li&gt;Se conecta a Broker Mqtt para recibir conteo de personas.&lt;/li&gt;&lt;li&gt;recibe http request para activacion de alarma&amp;nbsp;&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="750" y="995" width="320" height="225" as="geometry" />
         </mxCell>
         <mxCell id="kFSBD8ii1fqP9d3rHwqO-41" value="" style="image;html=1;image=img/lib/clip_art/people/Construction_Worker_Man_128x128.png" vertex="1" parent="1">
@@ -196,6 +193,12 @@
         </mxCell>
         <mxCell id="kFSBD8ii1fqP9d3rHwqO-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;startArrow=classic;startFill=1;flowAnimation=1;" edge="1" parent="1" source="4qAtPdHN575NMLFxYR2I-53" target="kFSBD8ii1fqP9d3rHwqO-41">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kFSBD8ii1fqP9d3rHwqO-43" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&amp;nbsp;Directus&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ol&gt;&lt;li&gt;Se conecta a Broker Mqtt para enviar datos de configuracion de lectores.&lt;/li&gt;&lt;li&gt;Recibe peticiones de Broker Sync para historial de eventos y lecturas.&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="770" y="1120" width="320" height="225" as="geometry" />
+        </mxCell>
+        <mxCell id="kFSBD8ii1fqP9d3rHwqO-44" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&amp;nbsp;Datacapture&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ol&gt;&lt;li&gt;Se conecta a Broker Mqtt para enviar datos de prestamos.&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="400" y="1150" width="320" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
