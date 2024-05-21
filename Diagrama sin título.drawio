@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-21T01:10:05.471Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0" etag="ELN_ty3YDuXzLHU51jDt" version="24.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-21T01:14:50.063Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0" etag="U-NDYNukhSzAn0JofNZJ" version="24.4.0" type="github">
   <diagram name="Página-1" id="EDCEPwNvgwdrzLecZ25a">
     <mxGraphModel dx="1426" dy="759" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1280" pageHeight="1989" math="0" shadow="0">
       <root>
@@ -22,9 +22,6 @@
         </mxCell>
         <mxCell id="4qAtPdHN575NMLFxYR2I-6" value="TAG RFID" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#ED7100;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.braket_chip;direction=west;" parent="1" vertex="1">
           <mxGeometry x="50" y="637.42" width="28" height="28" as="geometry" />
-        </mxCell>
-        <mxCell id="4qAtPdHN575NMLFxYR2I-22" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Preguntas?&lt;/h1&gt;&lt;p&gt;1. ¿Que funcionalidades debe cumplir el Middleware?&lt;/p&gt;&lt;p&gt;2. Primera carga y configuración la trae de Directus DB?&lt;/p&gt;&lt;p&gt;3. cuantos lectores puede soportar un middleware&lt;/p&gt;&lt;p&gt;4. En MQTT se puede enviar JSON con diferente informacion que información se enviaria y hacía que server?&lt;/p&gt;&lt;p&gt;5. MQTT se debe instalar un server Mosquitto donde convergen todos los MQTT, se debe crear una herramienta broker para poder procesar , filtrar la informacion y almacenarla.&lt;/p&gt;&lt;p&gt;6. Nos quedamos sin red hacia la nube :&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="927" y="130" width="336" height="310" as="geometry" />
         </mxCell>
         <mxCell id="4qAtPdHN575NMLFxYR2I-27" value="DIRECTUS SERVER" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="540" y="350" width="260" height="310" as="geometry" />
@@ -120,8 +117,8 @@
             <mxPoint x="5" y="27" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="kFSBD8ii1fqP9d3rHwqO-15" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Broker MQTT&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ol&gt;&lt;li&gt;Se conecta a un servidor de mosquitto para lectores R700 o superiores.&lt;/li&gt;&lt;li&gt;El broker permite conectarse a lectores legacy (speedwayR)&lt;/li&gt;&lt;li&gt;Las lecturas se guardarán en BD mysql.&lt;/li&gt;&lt;li&gt;Consultas rapidas a redis para activacion de alarma.&lt;/li&gt;&lt;li&gt;Si hay un préstamo o devolución el datacapture envía petición al broker mqtt para cambiar en redis el estado.&lt;/li&gt;&lt;li&gt;Posteriormente guarda en mysql todos estos eventos.&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="30" y="995" width="320" height="225" as="geometry" />
+        <mxCell id="kFSBD8ii1fqP9d3rHwqO-15" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Broker MQTT&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ol&gt;&lt;li&gt;Se conecta a un servidor de mosquitto para lectores R700 o superiores.&lt;/li&gt;&lt;li&gt;El broker permite conectarse a lectores legacy (speedwayR)&lt;/li&gt;&lt;li&gt;Las lecturas se guardarán en BD mysql.&lt;/li&gt;&lt;li&gt;Consultas rapidas a redis para activacion de alarma.&lt;/li&gt;&lt;li&gt;Si hay un préstamo o devolución el datacapture envía petición al broker mqtt para cambiar en redis el estado.&lt;/li&gt;&lt;li&gt;Posteriormente guarda en mysql todos estos eventos.&lt;/li&gt;&lt;li&gt;Se conecta a directus para obtener readers y zonas&amp;nbsp;&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="30" y="995" width="310" height="275" as="geometry" />
         </mxCell>
         <mxCell id="kFSBD8ii1fqP9d3rHwqO-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.875;exitY=0.25;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.005;entryY=0.63;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;flowAnimation=1;" edge="1" parent="1" source="kFSBD8ii1fqP9d3rHwqO-9" target="4qAtPdHN575NMLFxYR2I-41">
           <mxGeometry relative="1" as="geometry">
@@ -173,6 +170,32 @@
           <mxGeometry x="-0.0879" y="2" relative="1" as="geometry">
             <mxPoint y="31" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="kFSBD8ii1fqP9d3rHwqO-37" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Broker Sync&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ol&gt;&lt;li&gt;Se conecta a mysql para redireccionar los eventos guardados hacia directus.&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="400" y="995" width="320" height="225" as="geometry" />
+        </mxCell>
+        <mxCell id="kFSBD8ii1fqP9d3rHwqO-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;flowAnimation=1;" edge="1" parent="1" source="kFSBD8ii1fqP9d3rHwqO-16" target="4qAtPdHN575NMLFxYR2I-41">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="470" y="880" />
+              <mxPoint x="470" y="620" />
+              <mxPoint x="655" y="620" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kFSBD8ii1fqP9d3rHwqO-39" value="http request" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="kFSBD8ii1fqP9d3rHwqO-38">
+          <mxGeometry x="-0.055" y="1" relative="1" as="geometry">
+            <mxPoint x="131" y="-24" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kFSBD8ii1fqP9d3rHwqO-40" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&amp;nbsp;GPIO&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ol&gt;&lt;li&gt;Se conecta a&amp;nbsp;&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="750" y="995" width="320" height="225" as="geometry" />
+        </mxCell>
+        <mxCell id="kFSBD8ii1fqP9d3rHwqO-41" value="" style="image;html=1;image=img/lib/clip_art/people/Construction_Worker_Man_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="840" y="710" width="30" height="37.58" as="geometry" />
+        </mxCell>
+        <mxCell id="kFSBD8ii1fqP9d3rHwqO-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;startArrow=classic;startFill=1;flowAnimation=1;" edge="1" parent="1" source="4qAtPdHN575NMLFxYR2I-53" target="kFSBD8ii1fqP9d3rHwqO-41">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
