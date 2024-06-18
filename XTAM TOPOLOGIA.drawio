@@ -1,4 +1,4 @@
-<mxfile modified="2024-06-18T17:51:13.959Z" host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0" etag="qiR95BfQSyNQM0JrBM7Z" version="24.5.5" type="github">
+<mxfile modified="2024-06-18T17:52:54.287Z" host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0" etag="de1KxQsJqrS5bMxOSVMg" version="24.5.5" type="github">
   <diagram id="Ht1M8jgEwFfnCIfOTk4-" name="Page-1">
     <mxGraphModel dx="1158" dy="1421" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -102,19 +102,23 @@
         <mxCell id="rpwozrU7dxwrfLIHk87M-28" value="Cámaras de Privados" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="rpwozrU7dxwrfLIHk87M-6">
           <mxGeometry x="70" y="34" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="rpwozrU7dxwrfLIHk87M-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="rpwozrU7dxwrfLIHk87M-6" source="rpwozrU7dxwrfLIHk87M-46">
+        <mxCell id="rpwozrU7dxwrfLIHk87M-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="rpwozrU7dxwrfLIHk87M-6">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="404.57894736842104" y="94" as="targetPoint" />
+            <mxPoint x="405" y="129" as="sourcePoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="rpwozrU7dxwrfLIHk87M-46" value="SIM CARD" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://static.vecteezy.com/system/resources/thumbnails/005/567/972/small_2x/sim-card-icon-isolated-on-white-background-free-vector.jpg;" vertex="1" parent="rpwozrU7dxwrfLIHk87M-6">
-          <mxGeometry x="380" y="129" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="rpwozrU7dxwrfLIHk87M-48" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://dev-s33d3mn3w.us.seedcloud.co/sites/default/files/portfolio-images/Logo_une.png;clipPath=inset(22.78% 11% 22.22% 8.33%);" vertex="1" parent="rpwozrU7dxwrfLIHk87M-6">
           <mxGeometry x="433" y="137.5" width="80.67" height="33" as="geometry" />
         </mxCell>
-        <mxCell id="rpwozrU7dxwrfLIHk87M-152" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.509;entryY=0.22;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="rpwozrU7dxwrfLIHk87M-6" source="rpwozrU7dxwrfLIHk87M-46" target="rpwozrU7dxwrfLIHk87M-46">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="rpwozrU7dxwrfLIHk87M-152" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.509;entryY=0.22;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="rpwozrU7dxwrfLIHk87M-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="405" y="129" as="sourcePoint" />
+            <mxPoint x="405.45000000000005" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rpwozrU7dxwrfLIHk87M-153" value="" style="sketch=0;html=1;aspect=fixed;strokeColor=none;shadow=0;fillColor=#8C8C8C;verticalAlign=top;labelPosition=center;verticalLabelPosition=bottom;shape=mxgraph.gcp2.memory_card" vertex="1" parent="rpwozrU7dxwrfLIHk87M-6">
+          <mxGeometry x="385" y="140" width="27.9" height="30" as="geometry" />
         </mxCell>
         <mxCell id="rpwozrU7dxwrfLIHk87M-70" value="RED SECRETARIA DE SEGURIDAD MEDELLÍN" style="swimlane;whiteSpace=wrap;html=1;strokeColor=#B3B3B3;" vertex="1" parent="1">
           <mxGeometry x="790" y="-800" width="360" height="410" as="geometry" />
