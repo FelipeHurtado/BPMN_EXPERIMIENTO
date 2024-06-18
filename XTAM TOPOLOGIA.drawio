@@ -1,6 +1,6 @@
-<mxfile modified="2024-06-18T17:50:11.439Z" host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0" etag="4UNsY7mt8BRb5Q3DvhzX" version="24.5.5" type="github">
+<mxfile modified="2024-06-18T17:51:13.959Z" host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0" etag="qiR95BfQSyNQM0JrBM7Z" version="24.5.5" type="github">
   <diagram id="Ht1M8jgEwFfnCIfOTk4-" name="Page-1">
-    <mxGraphModel dx="1603" dy="1650" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1158" dy="1421" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -111,7 +111,10 @@
           <mxGeometry x="380" y="129" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="rpwozrU7dxwrfLIHk87M-48" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://dev-s33d3mn3w.us.seedcloud.co/sites/default/files/portfolio-images/Logo_une.png;clipPath=inset(22.78% 11% 22.22% 8.33%);" vertex="1" parent="rpwozrU7dxwrfLIHk87M-6">
-          <mxGeometry x="420" y="137.5" width="80.67" height="33" as="geometry" />
+          <mxGeometry x="433" y="137.5" width="80.67" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="rpwozrU7dxwrfLIHk87M-152" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.509;entryY=0.22;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="rpwozrU7dxwrfLIHk87M-6" source="rpwozrU7dxwrfLIHk87M-46" target="rpwozrU7dxwrfLIHk87M-46">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="rpwozrU7dxwrfLIHk87M-70" value="RED SECRETARIA DE SEGURIDAD MEDELLÍN" style="swimlane;whiteSpace=wrap;html=1;strokeColor=#B3B3B3;" vertex="1" parent="1">
           <mxGeometry x="790" y="-800" width="360" height="410" as="geometry" />
