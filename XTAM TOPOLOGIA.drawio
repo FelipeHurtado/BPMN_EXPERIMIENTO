@@ -525,7 +525,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="noc central" id="DSiAAEv4x7ZiApxkPvmp">
-    <mxGraphModel dx="1678" dy="1708" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1678" dy="1708" grid="0" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="dLRklEQ9w5qgwOGlg2BJ-0" />
         <mxCell id="dLRklEQ9w5qgwOGlg2BJ-1" parent="dLRklEQ9w5qgwOGlg2BJ-0" />
