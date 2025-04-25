@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0" version="26.2.12" pages="10">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0" version="26.2.14" pages="10">
   <diagram id="Ht1M8jgEwFfnCIfOTk4-" name="MEDELLIN">
     <mxGraphModel dx="1426" dy="1574" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -1862,7 +1862,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="STEFANINI" id="ALslNKQui3s_pHUu1qSU">
-    <mxGraphModel dx="1659" dy="1579" grid="0" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1657" dy="1579" grid="0" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="MQaDjFlsDAB7IceHd4NI-0" />
         <mxCell id="MQaDjFlsDAB7IceHd4NI-1" parent="MQaDjFlsDAB7IceHd4NI-0" />
@@ -1958,37 +1958,37 @@
         <mxCell id="wJoxOMbfD9FgSr5t-EJz-8" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/phosphor-light-vol-2/256/file-video-light-128.png" parent="MQaDjFlsDAB7IceHd4NI-10" vertex="1">
           <mxGeometry x="326" y="83" width="22" height="22" as="geometry" />
         </mxCell>
-        <mxCell id="Gp4cZprt_6GXLKPCtBWE-0" value="" style="shape=image;html=1;verticalAlign=bottom;verticalLabelPosition=top;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/social-media-vol-3/24/_video-128.png;rotation=-180;fontColor=#3333FF;labelPosition=right;align=left;textDirection=rtl;" vertex="1" parent="MQaDjFlsDAB7IceHd4NI-10">
+        <mxCell id="Gp4cZprt_6GXLKPCtBWE-0" value="" style="shape=image;html=1;verticalAlign=bottom;verticalLabelPosition=top;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/social-media-vol-3/24/_video-128.png;rotation=-180;fontColor=#3333FF;labelPosition=right;align=left;textDirection=rtl;" parent="MQaDjFlsDAB7IceHd4NI-10" vertex="1">
           <mxGeometry x="62" y="217" width="38" height="38" as="geometry" />
         </mxCell>
-        <mxCell id="Gp4cZprt_6GXLKPCtBWE-9" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="MQaDjFlsDAB7IceHd4NI-10" source="Gp4cZprt_6GXLKPCtBWE-1" target="MQaDjFlsDAB7IceHd4NI-20">
+        <mxCell id="Gp4cZprt_6GXLKPCtBWE-9" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="MQaDjFlsDAB7IceHd4NI-10" source="Gp4cZprt_6GXLKPCtBWE-1" target="MQaDjFlsDAB7IceHd4NI-20" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Gp4cZprt_6GXLKPCtBWE-1" value="INTERNET" style="sketch=0;points=[[0.015,0.015,0],[0.985,0.015,0],[0.985,0.985,0],[0.015,0.985,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];verticalLabelPosition=bottom;html=1;verticalAlign=top;aspect=fixed;align=center;pointerEvents=1;shape=mxgraph.cisco19.rect;prIcon=l3_switch;fillColor=#FAFAFA;strokeColor=#3D3D3D;" vertex="1" parent="MQaDjFlsDAB7IceHd4NI-10">
+        <mxCell id="Gp4cZprt_6GXLKPCtBWE-1" value="INTERNET" style="sketch=0;points=[[0.015,0.015,0],[0.985,0.015,0],[0.985,0.985,0],[0.015,0.985,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];verticalLabelPosition=bottom;html=1;verticalAlign=top;aspect=fixed;align=center;pointerEvents=1;shape=mxgraph.cisco19.rect;prIcon=l3_switch;fillColor=#FAFAFA;strokeColor=#3D3D3D;" parent="MQaDjFlsDAB7IceHd4NI-10" vertex="1">
           <mxGeometry x="207" y="122" width="73" height="73" as="geometry" />
         </mxCell>
-        <mxCell id="Gp4cZprt_6GXLKPCtBWE-2" value="" style="shape=image;html=1;verticalAlign=bottom;verticalLabelPosition=top;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/social-media-vol-3/24/_video-128.png;rotation=-180;fontColor=#3333FF;labelPosition=right;align=left;textDirection=rtl;" vertex="1" parent="MQaDjFlsDAB7IceHd4NI-10">
+        <mxCell id="Gp4cZprt_6GXLKPCtBWE-2" value="" style="shape=image;html=1;verticalAlign=bottom;verticalLabelPosition=top;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/social-media-vol-3/24/_video-128.png;rotation=-180;fontColor=#3333FF;labelPosition=right;align=left;textDirection=rtl;" parent="MQaDjFlsDAB7IceHd4NI-10" vertex="1">
           <mxGeometry x="62" y="259" width="38" height="38" as="geometry" />
         </mxCell>
-        <mxCell id="Gp4cZprt_6GXLKPCtBWE-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="MQaDjFlsDAB7IceHd4NI-10" source="MQaDjFlsDAB7IceHd4NI-13" target="Gp4cZprt_6GXLKPCtBWE-1">
+        <mxCell id="Gp4cZprt_6GXLKPCtBWE-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="MQaDjFlsDAB7IceHd4NI-10" source="MQaDjFlsDAB7IceHd4NI-13" target="Gp4cZprt_6GXLKPCtBWE-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Gp4cZprt_6GXLKPCtBWE-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="MQaDjFlsDAB7IceHd4NI-10" source="MQaDjFlsDAB7IceHd4NI-15" target="Gp4cZprt_6GXLKPCtBWE-1">
+        <mxCell id="Gp4cZprt_6GXLKPCtBWE-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="MQaDjFlsDAB7IceHd4NI-10" source="MQaDjFlsDAB7IceHd4NI-15" target="Gp4cZprt_6GXLKPCtBWE-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Gp4cZprt_6GXLKPCtBWE-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="MQaDjFlsDAB7IceHd4NI-10" source="MQaDjFlsDAB7IceHd4NI-17" target="Gp4cZprt_6GXLKPCtBWE-1">
+        <mxCell id="Gp4cZprt_6GXLKPCtBWE-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="MQaDjFlsDAB7IceHd4NI-10" source="MQaDjFlsDAB7IceHd4NI-17" target="Gp4cZprt_6GXLKPCtBWE-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Gp4cZprt_6GXLKPCtBWE-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="MQaDjFlsDAB7IceHd4NI-10" source="MQaDjFlsDAB7IceHd4NI-30" target="Gp4cZprt_6GXLKPCtBWE-1">
+        <mxCell id="Gp4cZprt_6GXLKPCtBWE-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="MQaDjFlsDAB7IceHd4NI-10" source="MQaDjFlsDAB7IceHd4NI-30" target="Gp4cZprt_6GXLKPCtBWE-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Gp4cZprt_6GXLKPCtBWE-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="MQaDjFlsDAB7IceHd4NI-10" source="Gp4cZprt_6GXLKPCtBWE-0" target="Gp4cZprt_6GXLKPCtBWE-1">
+        <mxCell id="Gp4cZprt_6GXLKPCtBWE-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="MQaDjFlsDAB7IceHd4NI-10" source="Gp4cZprt_6GXLKPCtBWE-0" target="Gp4cZprt_6GXLKPCtBWE-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Gp4cZprt_6GXLKPCtBWE-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="MQaDjFlsDAB7IceHd4NI-10" source="Gp4cZprt_6GXLKPCtBWE-2" target="Gp4cZprt_6GXLKPCtBWE-1">
+        <mxCell id="Gp4cZprt_6GXLKPCtBWE-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="MQaDjFlsDAB7IceHd4NI-10" source="Gp4cZprt_6GXLKPCtBWE-2" target="Gp4cZprt_6GXLKPCtBWE-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Gp4cZprt_6GXLKPCtBWE-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="MQaDjFlsDAB7IceHd4NI-10" source="MQaDjFlsDAB7IceHd4NI-23" target="Gp4cZprt_6GXLKPCtBWE-1">
+        <mxCell id="Gp4cZprt_6GXLKPCtBWE-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="MQaDjFlsDAB7IceHd4NI-10" source="MQaDjFlsDAB7IceHd4NI-23" target="Gp4cZprt_6GXLKPCtBWE-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="MQaDjFlsDAB7IceHd4NI-36" value="&lt;font color=&quot;#000066&quot;&gt;CLOUD STEFANINI&lt;/font&gt;" style="swimlane;whiteSpace=wrap;html=1;strokeColor=#000000;horizontal=0;dashed=1;" parent="MQaDjFlsDAB7IceHd4NI-1" vertex="1">
@@ -2021,7 +2021,7 @@
           <mxGeometry x="167" y="167" width="42" height="43" as="geometry" />
         </mxCell>
         <mxCell id="wJoxOMbfD9FgSr5t-EJz-10" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/phosphor-light-vol-2/256/file-video-light-128.png" parent="MQaDjFlsDAB7IceHd4NI-36" vertex="1">
-          <mxGeometry x="38" y="146" width="22" height="22" as="geometry" />
+          <mxGeometry x="88" y="153" width="22" height="22" as="geometry" />
         </mxCell>
         <mxCell id="MQaDjFlsDAB7IceHd4NI-44" value="|" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=oval;startFill=1;endArrow=oval;endFill=1;" parent="MQaDjFlsDAB7IceHd4NI-1" source="MQaDjFlsDAB7IceHd4NI-10" target="MQaDjFlsDAB7IceHd4NI-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -2031,14 +2031,29 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ZhKg6YTmOLdSBZw6Ukb_-1" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;GENERALIDADES&amp;nbsp;&lt;/font&gt;&lt;/h1&gt;&lt;p&gt;En la topología propuesta los dispositivos XTAM VIDEO soportarían hasta &lt;b&gt;6 cámaras&lt;/b&gt; si ejemplo: un sitio tiene &lt;b&gt;16&lt;/b&gt; cámaras se requieren &lt;b&gt;3&amp;nbsp;&lt;/b&gt;dispositivos XTAM VIDEO.&lt;/p&gt;&lt;p&gt;Se requieren las credenciales del DVR o de las cámaras si son IP.&lt;/p&gt;&lt;p&gt;Las cámaras deben ser mínimo HD, H264 o h265 con soporte de protocolo RTSP.&lt;/p&gt;&lt;p&gt;La transmisión hacia los servidores de &lt;b&gt;Stefanini&lt;/b&gt; se realizará mediante VPN client to client para ello se debe instalar la VPN que suministremos en los servidores de Stefanini&lt;/p&gt;&lt;p&gt;Se requiere el puerto &lt;b&gt;21&lt;/b&gt; abierto en el servidor de Stefanini para la transmisión de archivos mediante FTP desde los XTAM VIDEO&lt;/p&gt;&lt;p&gt;Se debe habilitar permisos en una carpeta para guardar las grabaciones en los servers de&amp;nbsp; Stefanini y dentro de esta carpeta se crearán las diferentes carpetas con esta estructura&lt;/p&gt;&lt;p data-pm-slice=&quot;1 1 [&amp;quot;orderedList&amp;quot;,{&amp;quot;order&amp;quot;:1},&amp;quot;listItem&amp;quot;,null]&quot; data-prosemirror-node-block=&quot;true&quot; data-prosemirror-node-name=&quot;paragraph&quot; data-prosemirror-content-type=&quot;node&quot;&gt;&lt;span data-prosemirror-mark-name=&quot;code&quot; data-prosemirror-content-type=&quot;mark&quot; spellcheck=&quot;false&quot; class=&quot;code&quot;&gt;/[ID_SITIO]/[FECHA]/HH/[CAMARA_N]/&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;Se enviarán los archivos grabados en fragmentos de 10 minutos en formato .mp4 cada hora en &lt;b&gt;HD&lt;/b&gt; con codec&amp;nbsp;&lt;b&gt;h264&amp;nbsp;&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="MQaDjFlsDAB7IceHd4NI-1" vertex="1">
-          <mxGeometry x="34" y="-424" width="481" height="357" as="geometry" />
+        <mxCell id="ZhKg6YTmOLdSBZw6Ukb_-1" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;GENERALIDADES&amp;nbsp;&lt;/font&gt;&lt;/h1&gt;&lt;div&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Se requiere una &lt;b&gt;IP Fija&lt;/b&gt; para cada XTAM VIDEO en la Red LAN y en la red de internet.&lt;/font&gt;&lt;/div&gt;&lt;p&gt;En la topología propuesta los dispositivos XTAM VIDEO soportarían hasta &lt;b&gt;6 cámaras&lt;/b&gt; si ejemplo: un sitio tiene &lt;b&gt;16&lt;/b&gt; cámaras se requieren &lt;b&gt;3&amp;nbsp;&lt;/b&gt;dispositivos XTAM VIDEO.&lt;/p&gt;&lt;p&gt;Se requieren las credenciales del DVR o de las cámaras si son IP.&lt;/p&gt;&lt;p&gt;Las cámaras deben ser mínimo HD, H264 o h265 con soporte de protocolo RTSP.&lt;/p&gt;&lt;p&gt;La transmisión hacia los servidores de &lt;b&gt;Stefanini&lt;/b&gt; se realizará mediante VPN client to client para ello se debe instalar la VPN que suministremos en los servidores de Stefanini&lt;/p&gt;&lt;p&gt;Se requiere el puerto &lt;b&gt;21&lt;/b&gt; abierto en el servidor de Stefanini para la transmisión de archivos mediante FTP desde los XTAM VIDEO&lt;/p&gt;&lt;p&gt;Se debe habilitar permisos en una carpeta para guardar las grabaciones en los servers de&amp;nbsp; Stefanini y dentro de esta carpeta se crearán las diferentes carpetas con esta estructura&lt;/p&gt;&lt;p data-pm-slice=&quot;1 1 [&amp;quot;orderedList&amp;quot;,{&amp;quot;order&amp;quot;:1},&amp;quot;listItem&amp;quot;,null]&quot; data-prosemirror-node-block=&quot;true&quot; data-prosemirror-node-name=&quot;paragraph&quot; data-prosemirror-content-type=&quot;node&quot;&gt;&lt;span data-prosemirror-mark-name=&quot;code&quot; data-prosemirror-content-type=&quot;mark&quot; spellcheck=&quot;false&quot; class=&quot;code&quot;&gt;/[ID_SITIO]/[FECHA]/HH/[CAMARA_N]/&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Se enviarán los archivos grabados en fragmentos de 10 minutos en formato .mp4 cada hora en &lt;b&gt;HD&lt;/b&gt; con codec&amp;nbsp;&lt;b&gt;h264.&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;Medidas de XTAM VIDEO : 13.5 x 17 x 3.5 cm&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;lt; 2 Unidades de rack&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="MQaDjFlsDAB7IceHd4NI-1" vertex="1">
+          <mxGeometry x="34" y="-424" width="490" height="398" as="geometry" />
         </mxCell>
         <mxCell id="wJoxOMbfD9FgSr5t-EJz-9" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/phosphor-light-vol-2/256/file-video-light-128.png" parent="MQaDjFlsDAB7IceHd4NI-1" vertex="1">
-          <mxGeometry x="553" y="-685" width="22" height="22" as="geometry" />
+          <mxGeometry x="530" y="-662" width="22" height="22" as="geometry" />
         </mxCell>
         <mxCell id="wJoxOMbfD9FgSr5t-EJz-11" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;REQUERIMIENTOS DE SOFTWARE&amp;nbsp;&lt;/font&gt;&lt;/h1&gt;&lt;p&gt;Los XTAM VIDEO almacenan en formato &lt;b&gt;.mp4&amp;nbsp;&lt;/b&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;Se debe desarrollar un servicio de sincronización con el servidor CLOUD de Stefanini con las siguientes características:&lt;/p&gt;&lt;p&gt;&amp;nbsp;*Cada hora envié el video grabado&amp;nbsp;&lt;/p&gt;&lt;p&gt;*En caso de no poder realizar la sincronización reintentar 5 veces el envió.&lt;/p&gt;&lt;p&gt;*Si pasados los 5 intentos ese archivo quedará encolado para la siguiente hora.&lt;/p&gt;&lt;p&gt;*El envío es mediante protocolo FTP a un directorio habilitado en el servidor de STEFANINI mediante VPN client to client proporcionada por XTAM.&lt;/p&gt;&lt;p&gt;*Se debe almacenar el video grabado por 30 días localmente en cada XTAM VIDEO.&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="MQaDjFlsDAB7IceHd4NI-1" vertex="1">
-          <mxGeometry x="578" y="-418" width="481" height="334" as="geometry" />
+          <mxGeometry x="619" y="-411" width="481" height="334" as="geometry" />
+        </mxCell>
+        <mxCell id="5q0AZvfBctAlsOxaUgXy-0" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="MQaDjFlsDAB7IceHd4NI-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="527" y="-674" as="sourcePoint" />
+            <mxPoint x="561" y="-674" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5q0AZvfBctAlsOxaUgXy-1" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="MQaDjFlsDAB7IceHd4NI-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="683" y="-669" as="sourcePoint" />
+            <mxPoint x="717" y="-669" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5q0AZvfBctAlsOxaUgXy-2" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/phosphor-light-vol-2/256/file-video-light-128.png" vertex="1" parent="MQaDjFlsDAB7IceHd4NI-1">
+          <mxGeometry x="690" y="-658" width="22" height="22" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
